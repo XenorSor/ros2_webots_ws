@@ -1,0 +1,3 @@
+[console_scripts]
+car_driver = ros2_webots.car_driver:main
+
