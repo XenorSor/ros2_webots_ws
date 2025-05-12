@@ -10,6 +10,7 @@ setup.py
 ../../build/ros2_webots/ros2_webots.egg-info/top_level.txt
 ../../build/ros2_webots/ros2_webots.egg-info/zip-safe
 launch/car_first_launch.py
+resource/car.urdf
 resource/ros2_webots
 ros2_webots/__init__.py
 ros2_webots/car_driver.py

@@ -39,7 +39,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        anchor 0.1 0.045 0.025
+        anchor 0.1 0.045 0.02
       }
       device [
         RotationalMotor {
@@ -47,7 +47,7 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation 0.1 0.045 0.025
+        translation 0.1 0.045 0.02
         rotation 1 0 0 1.57
         children [
           DEF wheel Shape {
@@ -69,7 +69,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        anchor 0.1 -0.045 0.025
+        anchor 0.1 -0.045 0.02
       }
       device [
         RotationalMotor {
@@ -77,7 +77,7 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation 0.1 -0.045 0.025
+        translation 0.1 -0.045 0.02
         rotation 1 0 0 1.57
         children [
           USE wheel
@@ -89,7 +89,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        anchor -0.1 -0.045 0.025
+        anchor -0.1 -0.045 0.02
       }
       device [
         RotationalMotor {
@@ -97,7 +97,7 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.1 -0.045 0.025
+        translation -0.1 -0.045 0.02
         rotation 1 0 0 1.57
         children [
           USE wheel
@@ -109,7 +109,7 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        anchor -0.1 0.045 0.025
+        anchor -0.1 0.045 0.02
       }
       device [
         RotationalMotor {
@@ -117,7 +117,7 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.1 0.045 0.025
+        translation -0.1 0.045 0.02
         rotation 1 0 0 1.57
         children [
           USE wheel
@@ -129,6 +129,7 @@ Robot {
     }
   ]
   name "car"
+  controller "<extern>"
   boundingObject USE body
   physics Physics {
   }

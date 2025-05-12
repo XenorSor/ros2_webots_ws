@@ -12,7 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         (os.path.join('share' + package_name), ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*launch.[pxy][yma]*')),
-        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.wbt'))
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.wbt')),
+        (os.path.join('share', package_name, 'resource'), glob('resource/*.urdf'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'car_driver = ros2_webots.car_driver:main'
+            #'car_driver = ros2_webots.car_driver:main'
         ],
     },
 )
