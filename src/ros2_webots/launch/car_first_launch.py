@@ -18,7 +18,8 @@ def generate_launch_description():
         robot_name='car',
         parameters=[
             {'robot_description': robot_description_path}
-        ]
+        ],
+        respawn=True
     )
 
     return LaunchDescription([
