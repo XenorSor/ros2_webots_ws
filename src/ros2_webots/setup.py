@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            #'car_driver = ros2_webots.car_driver:main'
+            'obstacle_avoider = ros2_webots.obstacle_avoider:main'
         ],
     },
 )
