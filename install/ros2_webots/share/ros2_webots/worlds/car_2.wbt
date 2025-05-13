@@ -17,6 +17,50 @@ TexturedBackgroundLight {
 }
 CircleArena {
 }
+Solid {
+  translation 0.45 0.7 0
+  children [
+    DEF doboz Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 1
+        roughness 1
+        metalness 0.8
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE doboz
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.45 0.6 0
+  children [
+    USE doboz
+  ]
+  boundingObject USE doboz
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.6 0 0
+  children [
+    DEF henger Shape {
+      appearance PBRAppearance {
+      }
+      geometry Cylinder {
+        height 0.1
+        radius 0.05
+      }
+    }
+  ]
+  boundingObject USE henger
+  physics Physics {
+  }
+}
 Robot {
   children [
     DEF body Pose {
@@ -165,6 +209,21 @@ Robot {
         USE sensor
       ]
       name "ds1"
+      lookupTable [
+        0 1020 0
+        0.15 510 0
+        0.3 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DistanceSensor {
+      translation 0.1 0.0 0.06
+      rotation 0 0 1 0
+      children [
+        USE sensor
+      ]
+      name "ds_center"
       lookupTable [
         0 1020 0
         0.15 510 0
