@@ -10,11 +10,14 @@ setup.py
 ../../build/ros2_webots/ros2_webots.egg-info/top_level.txt
 ../../build/ros2_webots/ros2_webots.egg-info/zip-safe
 launch/car_first_launch.py
+launch/car_second_launch.py
 resource/car.urdf
 resource/ros2_webots
 ros2_webots/__init__.py
 ros2_webots/car_driver.py
+ros2_webots/car_movement_node.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 worlds/car_1.wbt
+worlds/car_2.wbt

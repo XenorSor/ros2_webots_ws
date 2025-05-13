@@ -11,7 +11,7 @@ def generate_launch_description():
     robot_description_path = os.path.join(package_dir, 'resource', 'car.urdf')
 
     webots = WebotsLauncher(
-        world=os.path.join(package_dir, 'worlds', 'car_1.wbt')
+        world=os.path.join(package_dir, 'worlds', 'car_2.wbt')
     )
 
     my_robot_driver = WebotsController(

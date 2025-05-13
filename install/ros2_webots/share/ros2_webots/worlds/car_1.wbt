@@ -129,6 +129,51 @@ Robot {
         physics USE wheel_physics
       }
     }
+    DistanceSensor {
+      translation 0.1 0.03 0.06
+      rotation 0 0 1 0.524
+      children [
+        DEF sensor Pose {
+          rotation 0 0 1 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 1 0
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ds0"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DistanceSensor {
+      translation 0.1 -0.03 0.06
+      rotation 0 0 1 -0.524
+      children [
+        USE sensor
+      ]
+      name "ds1"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
   ]
   name "car"
   controller "<extern>"
