@@ -130,7 +130,7 @@ Robot {
     }
     DistanceSensor {
       translation 0.1 0.03 0.06
-      rotation 0 0 1 0.524
+      rotation 0 0 1 0.85
       children [
         DEF sensor Pose {
           rotation 0 0 1 1.57
@@ -152,7 +152,7 @@ Robot {
       name "ds0"
       lookupTable [
         0 1020 0
-        0.05 1020 0
+        0.05 510 0
         0.15 0 0
       ]
       numberOfRays 2
@@ -160,14 +160,14 @@ Robot {
     }
     DistanceSensor {
       translation 0.1 -0.03 0.06
-      rotation 0 0 1 -0.524
+      rotation 0 0 1 -0.85
       children [
         USE sensor
       ]
       name "ds1"
       lookupTable [
         0 1020 0
-        0.05 1020 0
+        0.05 510 0
         0.15 0 0
       ]
       numberOfRays 2
