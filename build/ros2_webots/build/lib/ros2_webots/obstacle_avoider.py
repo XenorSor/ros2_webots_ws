@@ -29,13 +29,13 @@ class ObstacleAvoider(Node):
     def control_loop(self):
         command_message = Twist()
 
-        if self.__left_sensor_value < 0.1 or self.__right_sensor_value < 0.1:
+        if self.__left_sensor_value < 0.75 * MAX_RANGE or self.__right_sensor_value < 0.75 * MAX_RANGE:
             command_message.angular.z = -2.0
             command_message.linear.x = 0.02
-        elif self.__left_sensor_value < 0.1:
+        elif self.__left_sensor_value < 0.75 * MAX_RANGE:
             command_message.angular.z = -1.0
             command_message.linear.x = 0.05
-        elif self.__right_sensor_value < 0.1:
+        elif self.__right_sensor_value < 0.75 * MAX_RANGE:
             command_message.angular.z = 1.0
             command_message.linear.x = 0.05
         else:
