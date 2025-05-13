@@ -46,7 +46,7 @@ Solid {
   }
 }
 Solid {
-  translation 0.6 0 0
+  translation 0.75 0 0
   children [
     DEF henger Shape {
       appearance PBRAppearance {

@@ -19,7 +19,7 @@ class ObstacleAvoider(Node):
         self.__right_sensor_value = MAX_RANGE
         self.__middle_sensor_value = MAX_RANGE
 
-        self.create_timer(0.005, self.control_loop)
+        self.create_timer(0.02, self.control_loop)
 
     def __left_sensor_callback(self, message):
         self.__left_sensor_value = message.range
