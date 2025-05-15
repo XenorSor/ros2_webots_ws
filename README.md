@@ -13,8 +13,8 @@ Kezdés:
 
 Projektben kezdetek:
   kell a terminálba a következő kódok:
-    colcon build
-    source install/setup.bash
+    \ncolcon build
+    \nsource install/setup.bash
     export WEBOTS_HOME=/usr/local/webots
 
 Projekt struktúrája:
