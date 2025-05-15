@@ -1,6 +1,6 @@
 <?xml version=1.0 ?>
 <robot name='car'>
     <webots>
-        <plugin type="ros2_webots.car_driver.CarDriver" />
+        <plugin type="ros2_webots.teleop.Teleop" />
     </webots>
 </robot>

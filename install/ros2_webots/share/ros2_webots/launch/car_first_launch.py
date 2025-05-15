@@ -8,7 +8,7 @@ from webots_ros2_driver.webots_controller import WebotsController
 
 def generate_launch_description():
     package_dir = get_package_share_directory('ros2_webots')
-    robot_description_path = os.path.join(package_dir, 'resource', 'car.urdf')
+    robot_description_path = os.path.join(package_dir, 'resource', 'car_teleop.urdf')
 
     webots = WebotsLauncher(
         world=os.path.join(package_dir, 'worlds', 'car_1.wbt')
