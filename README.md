@@ -34,7 +34,7 @@ Launcherek:
       ![kép](https://github.com/user-attachments/assets/eec8ddf3-cb43-419c-a51b-4abe16d9e095)
       kódja:
      ![kép](https://github.com/user-attachments/assets/3d23ef7f-9b82-45e6-9a42-f37c3a2926e7)
-      webots változó indítja el szimulációt a megfelelő környezettel
+      webots változó indítja el szimulációt a megfelelő környezettel ||
       my_robot_driver változó által képesek vagyunk a robot irányítani egy kontrollerrel, ami össze van kötve egy urdf-vel és a robot újrahívása engedélyezve van
   
   3. car_second_launch.py:
@@ -50,18 +50,18 @@ Launcherek:
 
 URDF-ek:
   ![kép](https://github.com/user-attachments/assets/41eaea09-c592-4231-a95c-65ca5d3fe004)
-  itt építjük ki a kapcsolatot a szimuláció és kontroller között
-  plugin a kontrollerünk
+  itt építjük ki a kapcsolatot a szimuláció és kontroller között ||
+  plugin a kontrollerünk ||
   a device pedig a szenzorunk
 
 Kontroller:
   ![kép](https://github.com/user-attachments/assets/c427e290-d7f9-47e4-bd43-d80e3b71069d)
   Így nézz ki egy szimpla kontroller
   kell neki egy init, amely rendelkezik 3 paraméterrel, amely szükséges egy webots kontrollernek: self, webots_node, properties
-  webots_node tárolja a robot
-  getDevice által képesek vagyunk a robot egyes elemeit kivenni egy változóba
-  rclpy által kell egy node-ot létrehozni webots kontroller esetén
-  a setVelocity beállítja a motor sebbeségét
+  webots_node tárolja a robot ||
+  getDevice által képesek vagyunk a robot egyes elemeit kivenni egy változóba ||
+  rclpy által kell egy node-ot létrehozni webots kontroller esetén ||
+  a setVelocity beállítja a motor sebbeségét ||
   step függvény alapján működnek a kontrollerek ez alapján vagyunk képesek irányítani a robotot, ahol a kezdésnek kötelező egy ilyet adni: rclpy.spin_once(self.node, timeout_sec=0)
 
   3 kontrollerünk van:
