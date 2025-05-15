@@ -37,15 +37,15 @@ Launcherek:
       webots változó indítja el szimulációt a megfelelő környezettel ||
       my_robot_driver változó által képesek vagyunk a robot irányítani egy kontrollerrel, ami össze van kötve egy urdf-vel és a robot újrahívása engedélyezve van
   
-  3. car_second_launch.py:
+  2. car_second_launch.py:
       ez elindítja a webots-ot és egy olyan robot amely rendelkezik szenzorokkal
       ez automatikusan mozgó robot, amely valamelyest képes akadályokat kikerülni
       ![kép](https://github.com/user-attachments/assets/4228fbaf-d514-4bbc-85fd-1b861d61f8f8)
 
     
-  4. epock_launch.py:
-      ez elindítja a webots-ot, amely egy labirintus és egy epock robotot
-      a robot automatikus a falat követve közlekedik
+  3. epock_launch.py:
+      ez elindítja a webots-ot, amely egy labirintus és egy epock robotot,
+      a robot automatikusan a falat követve közlekedik
       ![kép](https://github.com/user-attachments/assets/5a87e668-c741-421f-a270-52286030caae)
 
 URDF-ek:
