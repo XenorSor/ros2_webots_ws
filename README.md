@@ -9,7 +9,7 @@ Kezdés:
 
   Továbbá kell egy a következő csomag: sudo apt-get install ros-humble-webots-ros2
 
-  Windows wsl esetén a egy fájlt át kell írni: \\wsl.localhost\Ubuntu-22.04\opt\ros\humble\local\lib\python3.10\dist-packages\webots_ros2_driver\utils.py itt a def is_wsl(): függvénynél azt kell írni, hogy: return False
+  Windows wsl esetén egy fájlt át kell írni: \\wsl.localhost\Ubuntu-22.04\opt\ros\humble\local\lib\python3.10\dist-packages\webots_ros2_driver\utils.py itt a def is_wsl(): függvénynél azt kell írni, hogy: return False
 
 Projektben kezdetek:
   kell a terminálba aq következő kódok:
