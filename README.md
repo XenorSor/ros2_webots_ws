@@ -13,16 +13,16 @@ Kezdés:
 
 Projektben kezdetek:
   kell a terminálba a következő kódok:
-    \ncolcon build
-    \nsource install/setup.bash
+    colcon build ||
+    source install/setup.bash ||
     export WEBOTS_HOME=/usr/local/webots
 
 Projekt struktúrája:
   src mappán belül a következők állnak:
-    launch - programok futtásáért felelős
-    resource - urdf fájlokat tartalmaz, amely kommunikál a szimulátor és kód között
-    ros2_webots - itt találhatóak a node-ok, kontrollerek
-    worlds - itt található a szimulációs környezetek
+    launch - programok futtásáért felelős ||
+    resource - urdf fájlokat tartalmaz, amely kommunikál a szimulátor és kód között ||
+    ros2_webots - itt találhatóak a node-ok, kontrollerek ||
+    worlds - itt található a szimulációs környezetek ||
 
 Launcherek:
   3 launcher van
