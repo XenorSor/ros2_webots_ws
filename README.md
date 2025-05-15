@@ -57,8 +57,8 @@ URDF-ek:
 Kontroller:
   ![kép](https://github.com/user-attachments/assets/c427e290-d7f9-47e4-bd43-d80e3b71069d)
   Így nézz ki egy szimpla kontroller
-  kell neki egy init, amely rendelkezik 3 paraméterrel, amely szükséges egy webots kontrollernek: self, webots_node, properties
-  webots_node tárolja a robot ||
+  kell neki egy init, amely rendelkezik 3 paraméterrel, amely szükséges egy webots kontrollernek: self, webots_node, properties;
+  webots_node tárolja a robotot ||
   getDevice által képesek vagyunk a robot egyes elemeit kivenni egy változóba ||
   rclpy által kell egy node-ot létrehozni webots kontroller esetén ||
   a setVelocity beállítja a motor sebbeségét ||
