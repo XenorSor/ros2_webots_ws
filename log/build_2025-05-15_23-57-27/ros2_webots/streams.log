@@ -1,0 +1,27 @@
+[0.805s] Invoking command in '/home/xenor/ros2_webots_ws/src/ros2_webots': PYTHONPATH=/home/xenor/ros2_webots_ws/build/ros2_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xenor/ros2_webots_ws/install/ros2_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_webots build --build-base /home/xenor/ros2_webots_ws/build/ros2_webots/build install --record /home/xenor/ros2_webots_ws/build/ros2_webots/install.log --single-version-externally-managed install_data
+[1.050s] running egg_info
+[1.051s] writing ../../build/ros2_webots/ros2_webots.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../../build/ros2_webots/ros2_webots.egg-info/dependency_links.txt
+[1.056s] writing entry points to ../../build/ros2_webots/ros2_webots.egg-info/entry_points.txt
+[1.056s] writing requirements to ../../build/ros2_webots/ros2_webots.egg-info/requires.txt
+[1.056s] writing top-level names to ../../build/ros2_webots/ros2_webots.egg-info/top_level.txt
+[1.058s] reading manifest file '../../build/ros2_webots/ros2_webots.egg-info/SOURCES.txt'
+[1.058s] adding license file 'LICENSE'
+[1.058s] writing manifest file '../../build/ros2_webots/ros2_webots.egg-info/SOURCES.txt'
+[1.059s] running build
+[1.059s] running build_py
+[1.059s] copying ros2_webots/epuck.py -> /home/xenor/ros2_webots_ws/build/ros2_webots/build/lib/ros2_webots
+[1.059s] running install
+[1.060s] running install_lib
+[1.061s] copying /home/xenor/ros2_webots_ws/build/ros2_webots/build/lib/ros2_webots/epuck.py -> /home/xenor/ros2_webots_ws/install/ros2_webots/lib/python3.10/site-packages/ros2_webots
+[1.061s] byte-compiling /home/xenor/ros2_webots_ws/install/ros2_webots/lib/python3.10/site-packages/ros2_webots/epuck.py to epuck.cpython-310.pyc
+[1.062s] running install_data
+[1.062s] copying launch/epuck_launch.py -> /home/xenor/ros2_webots_ws/install/ros2_webots/share/ros2_webots/launch
+[1.063s] copying resource/epuck.urdf -> /home/xenor/ros2_webots_ws/install/ros2_webots/share/ros2_webots/resource
+[1.063s] running install_egg_info
+[1.065s] removing '/home/xenor/ros2_webots_ws/install/ros2_webots/lib/python3.10/site-packages/ros2_webots-0.0.0-py3.10.egg-info' (and everything under it)
+[1.065s] Copying ../../build/ros2_webots/ros2_webots.egg-info to /home/xenor/ros2_webots_ws/install/ros2_webots/lib/python3.10/site-packages/ros2_webots-0.0.0-py3.10.egg-info
+[1.066s] running install_scripts
+[1.085s] Installing obstacle_avoider script to /home/xenor/ros2_webots_ws/install/ros2_webots/lib/ros2_webots
+[1.085s] writing list of installed files to '/home/xenor/ros2_webots_ws/build/ros2_webots/install.log'
+[1.112s] Invoked command in '/home/xenor/ros2_webots_ws/src/ros2_webots' returned '0': PYTHONPATH=/home/xenor/ros2_webots_ws/build/ros2_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xenor/ros2_webots_ws/install/ros2_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_webots build --build-base /home/xenor/ros2_webots_ws/build/ros2_webots/build install --record /home/xenor/ros2_webots_ws/build/ros2_webots/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+<?xml version=1.0 ?>
+<robot name='car'>
+    <webots>
+        <plugin type="ros2_webots.epuck.WallFollowing" />
+    </webots>
+</robot>

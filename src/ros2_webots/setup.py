@@ -13,8 +13,7 @@ setup(
         (os.path.join('share' + package_name), ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*launch.[pxy][yma]*')),
         (os.path.join('share', package_name, 'worlds'), glob('worlds/*.wbt')),
-        (os.path.join('share', package_name, 'resource'), glob('resource/*.urdf')),
-        (os.path.join('share', package_name, 'protos'), glob('protos/*.proto'))
+        (os.path.join('share', package_name, 'resource'), glob('resource/*.urdf'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
