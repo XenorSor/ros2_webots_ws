@@ -44,7 +44,7 @@ Launcherek:
 
     
   4. epock_launch.py:
-      ez elindítja a webots-ot, aemly egy labirintus és egy epock robotot
+      ez elindítja a webots-ot, amely egy labirintus és egy epock robotot
       a robot automatikus a falat követve közlekedik
       ![kép](https://github.com/user-attachments/assets/5a87e668-c741-421f-a270-52286030caae)
 
