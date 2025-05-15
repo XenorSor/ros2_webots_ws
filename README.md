@@ -12,7 +12,7 @@ Kezdés:
   Windows wsl esetén egy fájlt át kell írni: \\wsl.localhost\Ubuntu-22.04\opt\ros\humble\local\lib\python3.10\dist-packages\webots_ros2_driver\utils.py itt a def is_wsl(): függvénynél azt kell írni, hogy: return False
 
 Projektben kezdetek:
-  kell a terminálba aq következő kódok:
+  kell a terminálba a következő kódok:
     colcon build
     source install/setup.bash
     export WEBOTS_HOME=/usr/local/webots
