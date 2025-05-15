@@ -39,7 +39,7 @@ Launcherek:
   
   3. car_second_launch.py:
       ez elindítja a webots-ot és egy olyan robot amely rendelkezik szenzorokkal
-      ez automatikus mozgó robot, amely valamelyest képes akadályokat kikerülni
+      ez automatikusan mozgó robot, amely valamelyest képes akadályokat kikerülni
       ![kép](https://github.com/user-attachments/assets/4228fbaf-d514-4bbc-85fd-1b861d61f8f8)
 
     
