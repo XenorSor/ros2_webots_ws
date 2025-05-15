@@ -9,8 +9,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/4bcca6b05171ca
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.01959064189254348 0.9992500510213707 -0.03339973478975781 1.0614539792804056
-  position -1.4928071856870802 -0.00929045788266834 2.223583743758557
+  orientation -0.1234788525532331 0.9415796960573375 0.3133379149491946 0.7927717912032537
+  position -2.3603656172879126 -1.1898386652514776 2.544846516111408
   follow "e-puck"
 }
 TexturedBackground {
@@ -62,6 +62,11 @@ Wall {
   translation -0.75 -0.7 0
   name "wall(9)"
   size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.245 -0.5055 0
+  name "wall(10)"
+  size 0.3 0.01 0.1
 }
 Wall {
   translation 0.55 0 0
